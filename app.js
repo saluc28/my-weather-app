@@ -1,4 +1,4 @@
-import { apiKey } from apiKey
+import {apiKey} from "./apiKey.js"
 
 const weatherForm = document.querySelector(".weatherForm");
 
