@@ -1,10 +1,12 @@
+import { apiKey } from apiKey
+
 const weatherForm = document.querySelector(".weatherForm");
 
 const cityInput = document.querySelector(".cityInput");
 
 const card = document.querySelector(".card");
 
-const apiKey = "d2ead7610974b1db112c1b19b69f5df4";
+
 
 weatherForm.addEventListener("submit", async (event) => {
 
